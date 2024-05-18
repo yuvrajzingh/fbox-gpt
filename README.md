@@ -22,14 +22,19 @@
 - Add hardCoded Value to a separate Constants file
 - Register TMDB API & create an app & get acess token
 - Get Data from TMDB now playing movies list API
-- Created custom hook for now playing movies for Hero page
+- Created custom hook for nowPopular movies for Hero page
 - Create movieSlice
 - Update Store with movies Data
 - PLanning for MainContainer & Secondary Container
 - Fetch Data for Trailer Video
 - Update Store with Trailer Video
 - Embedded the Youtube video and make it autoplay and mute
-- 
+- Build Secondary Container
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Made the UI better
+- Created custom hook for nowPopular movies for Hero page
 
 
 # FEATURES TO CREATE
