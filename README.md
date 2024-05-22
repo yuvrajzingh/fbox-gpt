@@ -35,6 +35,9 @@
 - TMDB Image CDN URL
 - Made the UI better
 - Created custom hook for nowPopular movies for Hero page
+- GPT Search Feature
+- GPT Search Bar
+- (BONUS Feature) Multi-Language Feature in our App
 
 
 # FEATURES TO CREATE
