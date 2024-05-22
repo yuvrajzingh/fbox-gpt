@@ -5,7 +5,7 @@ import { checkValidData } from '../utils/validate'
 import {auth} from "../utils/firebase"
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { BACKGROUND_IMG, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
 
@@ -74,7 +74,7 @@ const Login = () => {
         <div className="relative flex items-center justify-center h-screen ">
             <Header />
             <div className="absolute">
-                <img src="https://wallpapercave.com/wp/wp7301157.jpg" alt="wallpaper" className=" h-screen w-screen object-cover"/>
+                <img src={BACKGROUND_IMG} alt="wallpaper" className=" h-screen w-screen object-cover"/>
                 <div className="absolute inset-0 bg-black opacity-70"></div>
             </div>
             <form onSubmit={(e)=>e.preventDefault()} action="" className=" text-white w-3/12 p-12 bg-black z-10 bg-opacity-70 rounded-md">
